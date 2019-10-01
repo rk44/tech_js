@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Display Name & Address</title>
+</head>
+<body>
+	<!-- Display method -->
+	<p id="name"></p>
+	<p id="address"></p>
+	<button onclick="nameView()">View Name</button>
+	<button onclick="addressView()">View Address</button>
+	<br>
+	<br>
+	<script type="text/javascript">
+		/* innerHTML */
+		document.getElementById("name").innerHTML = "Name: Ramanujam Gond";
+		document.getElementById("address").innerHTML = "Address: Near Banadurga Temple, Behera Sahi, Bhubanswar";
+
+		/* document.write */
+		document.write("Name: Ramanujam Gond");
+		document.write("<br>");
+		document.write("Address: Near Banadurga Temple, Behera Sahi, Bhubanswar");
+
+		/* window.alert */
+		function nameView() {
+			window.alert("Name: Ramanujam Gond");
+		}
+
+		function addressView() {
+			window.alert("Address: Near Banadurga Temple, Behera Sahi, Bhubanswar");
+		}
+
+		/* console.log */
+		console.log("Name: Ramanujam Gond");
+		console.log("Address: Near Banadurga Temple, Behera Sahi, Bhubanswar");
+	</script>
+</body>
+</html>
