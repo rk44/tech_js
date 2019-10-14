@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Calculator</title>
+</head>
+<body>
+	<script type="text/javascript">
+		//create a calculator in javascript having add, sub, mul, div methods
+		let num1, num2, methods;
+
+		num1 = prompt('Enter first number');
+		num2 = prompt('Enter second number');
+		methods = prompt('Enter a method');
+
+		num1 = parseInt(num1);
+		num2 = parseInt(num2);
+
+
+
+		switch(methods) {
+			case '+':
+			console.log(num1 + num2);
+			break;
+
+			case '-':
+			console.log(num1 - num2);
+			break;
+
+			case '*':
+			console.log(num1 * num2);
+			break;
+
+			case '/':
+			console.log(num1 / num2);
+			break;
+
+			case '%':
+			console.log(num1 % num2);
+			break;
+
+			default:
+			console.log('Invalid input !');
+		}
+	</script>
+</body>
+</html>
