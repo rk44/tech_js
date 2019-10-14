@@ -1,5 +1,5 @@
 //function to find largest of three number
-
+/*This program will find the largest of three numbers*/
 //function defination
 function largestNumber(num1, num2, num3) {
 	if(num1 > num2 && num1 > num3) {
